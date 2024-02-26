@@ -1,7 +1,6 @@
 // funcion para despus pasarse al btn
 
-const btn = document.querySelector("#btn");
-const menu = document.getElementById("menu"); 
+
 
 export  function mostrarPrecio(src,alt,nombreItem,precioItem){
     let item= document.getElementById("item");
@@ -32,7 +31,7 @@ export  function mostrarPrecio(src,alt,nombreItem,precioItem){
 
 
 };
-btn.addEventListener("click", mostrarPrecio);
+
 
 
 
